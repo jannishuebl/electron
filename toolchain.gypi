@@ -77,6 +77,13 @@
           'OTHER_CFLAGS': [
             '-fcolor-diagnostics',
           ],
+              'WARNING_CFLAGS': [
+                '-Wno-deprecated-declarations',
+                '-Wno-deprecated-register',
+                '-Wno-unused-private-field',
+                '-Wno-unused-variable',
+                '-Wno-unused-function',
+              ],
 
           'GCC_C_LANGUAGE_STANDARD': 'c99',  # -std=c99
           'CLANG_CXX_LIBRARY': 'libc++',  # -stdlib=libc++
