@@ -5,7 +5,7 @@
 #include <algorithm>
 #include <iostream>
 
-#include <nan.h>
+#include <nan/nan.h>
 #include <openssl/bn.h>
 #include <openssl/crypto.h>
 #include <map>
